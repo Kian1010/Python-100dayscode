@@ -1,6 +1,0 @@
-a = str(123)
-b = float("123")
-c = int("55")
-print(type(a))
-print(type(b))
-print(type(c))
