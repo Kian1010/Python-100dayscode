@@ -25,7 +25,7 @@ def decrypt(dtext, dshift):
         if new_position < 0:
             new_position += 25
         normal_text += alphabet[new_position]
-    print(f"The encoded text is {normal_text}")
+    print(f"The decoded text is {normal_text}")
 
 
 # TODO-2: Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.
